@@ -1,0 +1,11 @@
+---
+- name: Group management
+  hosts: all
+  become: true
+  vars:
+    mygroup: 'accounting'
+  tasks:
+    - name: Create group
+      ansible.builtin.group:
+        name: "{{ mygroup }}"
+        state: present
