@@ -10,7 +10,8 @@
         regexp: "^PasswordAuthentication"
         line: "PasswordAuthentication yes"
         validate: 'sshd -t -f %s'
-
+      notify: Restart service
+      
   handlers:
     - name: Restart service
       ansible.builtin.service:
