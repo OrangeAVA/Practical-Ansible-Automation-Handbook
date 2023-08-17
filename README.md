@@ -1,5 +1,5 @@
 
-## Hands-on ML Projects with OpenCV
+## Practical Ansible Automation Handbook
 
 This is the repository for [Practical Ansible Automation Handbook](https://orangeava.com/products/practical-ansible-automation-handbook), published by Orange AVA™
 
